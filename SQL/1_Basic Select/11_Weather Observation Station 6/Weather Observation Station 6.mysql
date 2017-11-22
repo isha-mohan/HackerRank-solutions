@@ -1,3 +1,6 @@
+/*
+Working platform:- MySQL
+*/
 SELECT DISTINCT CITY 
 FROM STATION
-WHERE CITY RLIKE '^[aeiou]';
+WHERE CITY REGEXP '^[aeiou]';
